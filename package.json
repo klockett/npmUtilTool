@@ -1,8 +1,8 @@
 {
   "name": "npm_util_tool",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "",
-  "main": "src/server.js",
+  "main": "lib/util.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,18 +12,7 @@
     "url": "git+https://github.com/klockett/npmUtilTool"
   },
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0"
-  },
   "dependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0"
+    "chalk": "^1.1.3"
   }
 }
